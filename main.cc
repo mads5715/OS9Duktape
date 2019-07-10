@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 
 	duk_context *ctx = NULL;
 	char line[4096];
-	std::string lin = "I like *Sam and Max*.";
+	std::string lin = "*Hello World!*.";
 	size_t idx;
 	int ch;
 
